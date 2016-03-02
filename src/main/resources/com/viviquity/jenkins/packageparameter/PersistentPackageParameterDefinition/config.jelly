@@ -11,8 +11,8 @@
     </f:entry>
     <f:entry field="repositoryType" name="repositoryType" title="Choose Repository Type">
         <select name="repositoryType">
-        	<option value="apt">Apt</option>
-        	<option value="yum">Yum</option>
+        	<option value="apt" selected="${instance.repositoryType =='apt'}">Apt</option>
+        	<option value="yum" selected="${instance.repositoryType =='yum'}">Yum</option>
     	</select>
     </f:entry>
     <f:block>
